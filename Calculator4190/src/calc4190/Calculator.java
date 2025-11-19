@@ -12,6 +12,7 @@ public class Calculator {
 		do {
 			System.out.println("Welcome to the calculator");
 			System.out.println("Please type your first number: ");
+			//User inputs a number
 			while (!scanner.hasNextDouble()) {
 				System.out.println("Invalid input. Please try again ");
 				num1 = scanner.nextDouble();
