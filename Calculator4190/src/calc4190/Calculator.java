@@ -62,7 +62,6 @@ public class Calculator {
 				end = true;
 			}
 		} while (end == false);
-		//This is the end of the loop.
 
 	}
 	public static double Addition(double num1, double num2) {
